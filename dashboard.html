@@ -1,0 +1,87 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+      <meta charset="utf-8">
+      <title>My Dashboard</title>
+
+
+
+
+
+
+
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-1.3.1.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+
+
+
+
+  </head>
+
+
+  <body background="https://www.ivani.com/wp-content/uploads/2018/10/Screen-Shot-2018-10-29-at-15.19.59.png">
+    <h1> The analysis between various features of the Training Data is given  </h1>
+      To download the Training dataset (csv format) <a href="‎⁨Macintosh HD⁩\⁨Users⁩\⁨sakshamtaneja⁩\⁨Desktop⁩\internshala training⁩\⁨Problem Statement (6)⁩\train.csv"> click here </a>
+      <br><br>
+      To download the Test dataset (csv format) <a href="‎⁨Macintosh HD⁩\⁨Users⁩\⁨sakshamtaneja⁩\⁨Desktop⁩\internshala training⁩\⁨Problem Statement (6)⁩\test.csv"> click here </a>
+      <br><br>
+
+
+
+<center>
+              <div class="bk-root" id="09ad3d9d-dd1f-4aba-adac-2dcb2bf2bb64" data-root-id="26158"></div>
+
+
+
+
+
+        <script type="application/json" id="26366">
+          {"54b37227-088f-480a-a1e8-b4cd19eb9aa9":{"roots":{"references":[{"attributes":{"text":"Subscribed"},"id":"26041","type":"Title"},{"attributes":{"fill_color":{"field":"yes_no","transform":{"id":"26149","type":"CategoricalColorMapper"}},"line_color":{"value":"#1f77b4"},"top":{"field":"subscribes_count"},"width":{"value":0.2},"x":{"field":"yes_no"}},"id":"26152","type":"VBar"},{"attributes":{"label":{"value":"no"},"renderers":[{"id":"26071","type":"GlyphRenderer"}]},"id":"26079","type":"LegendItem"},{"attributes":{"formatter":{"id":"26165","type":"BasicTickFormatter"},"ticker":{"id":"26106","type":"BasicTicker"}},"id":"26105","type":"LinearAxis"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"subscribes_count"},"width":{"value":0.2},"x":{"field":"yes_no"}},"id":"26153","type":"VBar"},{"attributes":{"callback":null,"data":{"job_type":["admin.","blue-collar","entrepreneur","housemaid","management","retired","self-employed","services","student","technician","unemployed","unknown"],"no":[3179,6353,923,795,5716,1212,983,2649,453,4713,776,180],"yes":[452,489,85,79,923,362,140,254,182,594,129,26]},"selected":{"id":"26180","type":"Selection"},"selection_policy":{"id":"26181","type":"UnionRenderers"}},"id":"26080","type":"ColumnDataSource"},{"attributes":{},"id":"26177","type":"UnionRenderers"},{"attributes":{"fields":[]},"id":"26063","type":"Stack"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"26060","type":"HoverTool"}]},"id":"26061","type":"Toolbar"},{"attributes":{"data_source":{"id":"26150","type":"ColumnDataSource"},"glyph":{"id":"26152","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"26153","type":"VBar"},"selection_glyph":null,"view":{"id":"26155","type":"CDSView"}},"id":"26154","type":"GlyphRenderer"},{"attributes":{"bottom":{"expr":{"id":"26065","type":"Stack"}},"fill_color":{"value":"#e84d60"},"line_color":{"value":"#e84d60"},"top":{"expr":{"id":"26066","type":"Stack"}},"width":{"value":0.9},"x":{"field":"job_type"}},"id":"26082","type":"VBar"},{"attributes":{"source":{"id":"26150","type":"ColumnDataSource"}},"id":"26155","type":"CDSView"},{"attributes":{},"id":"26052","type":"CategoricalTicker"},{"attributes":{"bottom":{"expr":{"id":"26065","type":"Stack"}},"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"expr":{"id":"26066","type":"Stack"}},"width":{"value":0.9},"x":{"field":"job_type"}},"id":"26083","type":"VBar"},{"attributes":{"below":[{"id":"26051","type":"CategoricalAxis"}],"center":[{"id":"26054","type":"Grid"},{"id":"26059","type":"Grid"},{"id":"26078","type":"Legend"}],"left":[{"id":"26055","type":"LinearAxis"}],"outline_line_color":{"value":null},"plot_height":200,"plot_width":1300,"renderers":[{"id":"26071","type":"GlyphRenderer"},{"id":"26084","type":"GlyphRenderer"}],"sizing_mode":"fixed","title":{"id":"26041","type":"Title"},"toolbar":{"id":"26061","type":"Toolbar"},"x_range":{"id":"26043","type":"FactorRange"},"x_scale":{"id":"26047","type":"CategoricalScale"},"y_range":{"id":"26045","type":"DataRange1d"},"y_scale":{"id":"26049","type":"LinearScale"}},"id":"26040","subtype":"Figure","type":"Plot"},{"attributes":{"data_source":{"id":"26080","type":"ColumnDataSource"},"glyph":{"id":"26082","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"name":"yes","nonselection_glyph":{"id":"26083","type":"VBar"},"selection_glyph":null,"view":{"id":"26085","type":"CDSView"}},"id":"26084","type":"GlyphRenderer"},{"attributes":{"bottom":{"expr":{"id":"26063","type":"Stack"}},"fill_color":{"value":"#718dbf"},"line_color":{"value":"#718dbf"},"top":{"expr":{"id":"26064","type":"Stack"}},"width":{"value":0.9},"x":{"field":"job_type"}},"id":"26069","type":"VBar"},{"attributes":{"source":{"id":"26080","type":"ColumnDataSource"}},"id":"26085","type":"CDSView"},{"attributes":{"callback":null},"id":"26097","type":"DataRange1d"},{"attributes":{},"id":"26106","type":"BasicTicker"},{"attributes":{"callback":null,"factors":["admin.","blue-collar","entrepreneur","housemaid","management","retired","self-employed","services","student","technician","unemployed","unknown"],"range_padding":0.1},"id":"26043","type":"FactorRange"},{"attributes":{},"id":"26091","type":"Selection"},{"attributes":{},"id":"26056","type":"BasicTicker"},{"attributes":{},"id":"26092","type":"UnionRenderers"},{"attributes":{"children":[{"id":"26156","type":"Row"},{"id":"26157","type":"Row"}],"sizing_mode":"fixed"},"id":"26158","type":"Column"},{"attributes":{"label":{"value":"yes"},"renderers":[{"id":"26084","type":"GlyphRenderer"}]},"id":"26093","type":"LegendItem"},{"attributes":{},"id":"26047","type":"CategoricalScale"},{"attributes":{"formatter":{"id":"26163","type":"BasicTickFormatter"},"ticker":{"id":"26111","type":"BasicTicker"}},"id":"26110","type":"LinearAxis"},{"attributes":{},"id":"26111","type":"BasicTicker"},{"attributes":{"below":[{"id":"26105","type":"LinearAxis"}],"center":[{"id":"26109","type":"Grid"},{"id":"26114","type":"Grid"}],"left":[{"id":"26110","type":"LinearAxis"}],"plot_height":200,"plot_width":900,"renderers":[{"id":"26122","type":"GlyphRenderer"}],"sizing_mode":"fixed","title":{"id":"26095","type":"Title"},"toolbar":{"id":"26116","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"26097","type":"DataRange1d"},"x_scale":{"id":"26101","type":"LinearScale"},"y_range":{"id":"26099","type":"DataRange1d"},"y_scale":{"id":"26103","type":"LinearScale"}},"id":"26094","subtype":"Figure","type":"Plot"},{"attributes":{"text":"Number of People in different age category"},"id":"26095","type":"Title"},{"attributes":{"dimension":1,"ticker":{"id":"26111","type":"BasicTicker"}},"id":"26114","type":"Grid"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"26115","type":"HoverTool"}]},"id":"26116","type":"Toolbar"},{"attributes":{"callback":null,"tooltips":[["Age","@age"],["Count","@counts"]]},"id":"26115","type":"HoverTool"},{"attributes":{},"id":"26163","type":"BasicTickFormatter"},{"attributes":{"ticker":{"id":"26106","type":"BasicTicker"}},"id":"26109","type":"Grid"},{"attributes":{"below":[{"id":"26137","type":"CategoricalAxis"}],"center":[{"id":"26140","type":"Grid"},{"id":"26145","type":"Grid"}],"left":[{"id":"26141","type":"LinearAxis"}],"plot_height":200,"plot_width":400,"renderers":[{"id":"26154","type":"GlyphRenderer"}],"sizing_mode":"fixed","title":{"id":"26127","type":"Title"},"toolbar":{"id":"26147","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"26129","type":"FactorRange"},"x_scale":{"id":"26133","type":"CategoricalScale"},"y_range":{"id":"26131","type":"DataRange1d"},"y_scale":{"id":"26135","type":"LinearScale"}},"id":"26126","subtype":"Figure","type":"Plot"},{"attributes":{"fields":["no"]},"id":"26064","type":"Stack"},{"attributes":{},"id":"26049","type":"LinearScale"},{"attributes":{"text":"Total No of people who subscribed or not"},"id":"26127","type":"Title"},{"attributes":{"callback":null,"start":0},"id":"26045","type":"DataRange1d"},{"attributes":{"fill_color":{"value":"#1f77b4"},"line_color":{"value":"#1f77b4"},"top":{"field":"counts"},"width":{"value":0.5},"x":{"field":"age"}},"id":"26120","type":"VBar"},{"attributes":{"factors":["no","yes"],"palette":["#3288bd","#99d594","#e6f598","#fee08b","#fc8d59","#d53e4f"]},"id":"26149","type":"CategoricalColorMapper"},{"attributes":{"grid_line_color":null,"ticker":{"id":"26052","type":"CategoricalTicker"}},"id":"26054","type":"Grid"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"counts"},"width":{"value":0.5},"x":{"field":"age"}},"id":"26121","type":"VBar"},{"attributes":{"children":[{"id":"26094","subtype":"Figure","type":"Plot"},{"id":"26126","subtype":"Figure","type":"Plot"}],"sizing_mode":"fixed"},"id":"26156","type":"Row"},{"attributes":{"data_source":{"id":"26118","type":"ColumnDataSource"},"glyph":{"id":"26120","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"26121","type":"VBar"},"selection_glyph":null,"view":{"id":"26123","type":"CDSView"}},"id":"26122","type":"GlyphRenderer"},{"attributes":{"callback":null},"id":"26131","type":"DataRange1d"},{"attributes":{"formatter":{"id":"26077","type":"CategoricalTickFormatter"},"minor_tick_line_color":{"value":null},"ticker":{"id":"26052","type":"CategoricalTicker"}},"id":"26051","type":"CategoricalAxis"},{"attributes":{"callback":null,"factors":["no","yes"],"range_padding":0.1},"id":"26129","type":"FactorRange"},{"attributes":{"source":{"id":"26118","type":"ColumnDataSource"}},"id":"26123","type":"CDSView"},{"attributes":{"callback":null,"data":{"age":[32,31,33,34,35,36,30,37,39,38,40,41,42,29,45,43,46,44,47,28,49,48,52,50,51,27,53,54,55,57,26,59,56,58,60,25,24,23,61,22,63,21,64,66,62,70,71,67,20,65,72,77,69,73,74,68,76,75,78,80,19,83,79,82,81,86,18,84,89,88,87,92,94,93,90,95],"counts":[1457,1417,1406,1321,1314,1245,1219,1181,1079,985,960,909,873,852,844,821,807,786,749,729,700,697,667,659,653,627,600,597,582,576,564,550,543,510,420,366,212,142,109,86,49,48,47,46,46,44,43,40,39,37,35,33,32,30,29,26,25,25,24,22,22,16,15,15,13,8,8,5,2,2,2,1,1,1,1,1]},"selected":{"id":"26174","type":"Selection"},"selection_policy":{"id":"26175","type":"UnionRenderers"}},"id":"26118","type":"ColumnDataSource"},{"attributes":{},"id":"26176","type":"Selection"},{"attributes":{},"id":"26165","type":"BasicTickFormatter"},{"attributes":{},"id":"26133","type":"CategoricalScale"},{"attributes":{},"id":"26135","type":"LinearScale"},{"attributes":{"formatter":{"id":"26169","type":"CategoricalTickFormatter"},"ticker":{"id":"26138","type":"CategoricalTicker"}},"id":"26137","type":"CategoricalAxis"},{"attributes":{"fields":["no"]},"id":"26065","type":"Stack"},{"attributes":{},"id":"26138","type":"CategoricalTicker"},{"attributes":{"callback":null,"data":{"job_type":["admin.","blue-collar","entrepreneur","housemaid","management","retired","self-employed","services","student","technician","unemployed","unknown"],"no":[3179,6353,923,795,5716,1212,983,2649,453,4713,776,180],"yes":[452,489,85,79,923,362,140,254,182,594,129,26]},"selected":{"id":"26091","type":"Selection"},"selection_policy":{"id":"26092","type":"UnionRenderers"}},"id":"26067","type":"ColumnDataSource"},{"attributes":{"formatter":{"id":"26075","type":"BasicTickFormatter"},"minor_tick_line_color":{"value":null},"ticker":{"id":"26056","type":"BasicTicker"}},"id":"26055","type":"LinearAxis"},{"attributes":{},"id":"26167","type":"BasicTickFormatter"},{"attributes":{"callback":null,"tooltips":"$name , @job_type: @$name"},"id":"26060","type":"HoverTool"},{"attributes":{"ticker":{"id":"26138","type":"CategoricalTicker"}},"id":"26140","type":"Grid"},{"attributes":{"children":[{"id":"26040","subtype":"Figure","type":"Plot"}],"sizing_mode":"fixed"},"id":"26157","type":"Row"},{"attributes":{"formatter":{"id":"26167","type":"BasicTickFormatter"},"ticker":{"id":"26142","type":"BasicTicker"}},"id":"26141","type":"LinearAxis"},{"attributes":{},"id":"26169","type":"CategoricalTickFormatter"},{"attributes":{"bottom":{"expr":{"id":"26063","type":"Stack"}},"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"expr":{"id":"26064","type":"Stack"}},"width":{"value":0.9},"x":{"field":"job_type"}},"id":"26070","type":"VBar"},{"attributes":{"callback":null},"id":"26099","type":"DataRange1d"},{"attributes":{},"id":"26142","type":"BasicTicker"},{"attributes":{"data_source":{"id":"26067","type":"ColumnDataSource"},"glyph":{"id":"26069","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"name":"no","nonselection_glyph":{"id":"26070","type":"VBar"},"selection_glyph":null,"view":{"id":"26072","type":"CDSView"}},"id":"26071","type":"GlyphRenderer"},{"attributes":{},"id":"26174","type":"Selection"},{"attributes":{"dimension":1,"ticker":{"id":"26142","type":"BasicTicker"}},"id":"26145","type":"Grid"},{"attributes":{"source":{"id":"26067","type":"ColumnDataSource"}},"id":"26072","type":"CDSView"},{"attributes":{},"id":"26175","type":"UnionRenderers"},{"attributes":{},"id":"26103","type":"LinearScale"},{"attributes":{},"id":"26101","type":"LinearScale"},{"attributes":{},"id":"26180","type":"Selection"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"26146","type":"HoverTool"}]},"id":"26147","type":"Toolbar"},{"attributes":{},"id":"26075","type":"BasicTickFormatter"},{"attributes":{"callback":null,"tooltips":[["Yes/No","@yes_no"],["Count","@subscribes_count"],["Total","31647"]]},"id":"26146","type":"HoverTool"},{"attributes":{},"id":"26181","type":"UnionRenderers"},{"attributes":{"fields":["no","yes"]},"id":"26066","type":"Stack"},{"attributes":{},"id":"26077","type":"CategoricalTickFormatter"},{"attributes":{"dimension":1,"ticker":{"id":"26056","type":"BasicTicker"}},"id":"26059","type":"Grid"},{"attributes":{"callback":null,"data":{"subscribes_count":[27932,3715],"yes_no":["no","yes"]},"selected":{"id":"26176","type":"Selection"},"selection_policy":{"id":"26177","type":"UnionRenderers"}},"id":"26150","type":"ColumnDataSource"},{"attributes":{"items":[{"id":"26079","type":"LegendItem"},{"id":"26093","type":"LegendItem"}],"orientation":"horizontal"},"id":"26078","type":"Legend"}],"root_ids":["26158"]},"title":"Bokeh Application","version":"1.3.1"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+
+                  var docs_json = document.getElementById('26366').textContent;
+                  var render_items = [{"docid":"54b37227-088f-480a-a1e8-b4cd19eb9aa9","roots":{"26158":"09ad3d9d-dd1f-4aba-adac-2dcb2bf2bb64"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+
+  </body>
+
+</html>
